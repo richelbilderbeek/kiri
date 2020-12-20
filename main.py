@@ -2,16 +2,16 @@
 import sys
 import pygame
 
+
 # define a main function
 def main():
-
 
     # initialize the pygame module
     pygame.init()
     pygame.display.set_caption("kiri")
 
     # create a surface on screen that has the size of 240 x 180
-    screen = pygame.display.set_mode((960,720))
+    screen = pygame.display.set_mode((960, 720))
 
     # define a variable to control the main loop
     running = True
@@ -28,7 +28,7 @@ def main():
 
 # run the main function only if this module is executed as the main script
 # (if you import this as a module then nothing is executed)
-if __name__== "__main__":
+if __name__ == "__main__":
     if (len(sys.argv) == 2 and sys.argv[1] == "--test"):
         print("Testing here")
         exit(0)
