@@ -4,9 +4,7 @@ class Board:
     n_cols = 4
     # Number of columns where a player can place a peg
 
-    n_rows = 10
-    # Let Kirsten check
-    # Equals the number of turns a player has
+    n_rows = 12
 
     def print_me(self):
         # Show the board as text one day
@@ -20,7 +18,6 @@ def test_board():
         b = Board()
         assert b.n_cols == 4, "A board has four columns"
 
-    if False:
-        # Issue 2
+    if True:
         b = Board()
-        assert b.n_rows == -1, "A board has ? rows"
+        assert b.n_rows == 12, "A board has 12 rows"
