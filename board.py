@@ -11,3 +11,8 @@ class Board:
     # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
 
+
+def test_board():
+    #
+    print("Testing the board here")
+

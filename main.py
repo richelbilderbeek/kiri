@@ -1,7 +1,11 @@
 # import the pygame module, so you can use it
 import sys
 import pygame
+from board import *
 
+# define the main main testing function
+def test():
+    test_board()
 
 # define a main function
 def main():
@@ -30,7 +34,7 @@ def main():
 # (if you import this as a module then nothing is executed)
 if __name__ == "__main__":
     if (len(sys.argv) == 2 and sys.argv[1] == "--test"):
-        print("Testing here")
+        test()
         exit(0)
 
     # call the main function
