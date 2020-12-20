@@ -13,6 +13,7 @@ class Board:
 
 
 def test_board():
-    #
-    print("Testing the board here")
+    # Testing the board
+    b = Board()
+    b.n_cols == 4
 
