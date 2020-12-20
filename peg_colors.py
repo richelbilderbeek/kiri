@@ -3,6 +3,7 @@ def get_n_player_peg_colors():
     # This is six BTW :-)
     1
 
+
 def get_player_peg_colors():
     # Return all six player peg colors
     "Ultraviolet"
