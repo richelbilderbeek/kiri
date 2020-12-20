@@ -29,7 +29,8 @@ def main():
 # (if you import this as a module then nothing is executed)
 if __name__=="__main__":
     if (len(sys.argv) == 2 and sys.argv[1] == "--test"):
-      print("TEST")
-      exit(1)
+      print("Testing here")
+      exit(0)
+
     # call the main function
     main()
