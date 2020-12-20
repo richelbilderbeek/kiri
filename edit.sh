@@ -1,2 +1,2 @@
 #!/bin/bash
-mousepad *.py 
+mousepad board.py peg_colors.py main.py

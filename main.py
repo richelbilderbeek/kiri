@@ -37,11 +37,12 @@ def main():
             if event.type == pygame.QUIT:
                 # change the value to False, to exit the main loop
                 running = False
-        # Draw text, from 
+        # Draw text, from
         # https://pygame.readthedocs.io/en/latest/4_text/text.html#work-with-text
         img = font.render("MASTERMIND", True, (255, 128, 0))
         screen.blit(img, (120, 120))
         pygame.display.update()
+
 
 # run the main function only if this module is executed as the main script
 # (if you import this as a module then nothing is executed)
