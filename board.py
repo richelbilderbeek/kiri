@@ -41,9 +41,7 @@ def test_board():
     if False:
         # Issue 11
         b = Board()
-        b.set_color(0, 0, "red")
-        # assert !b.is_empty(), "A board is not empty after a peg is placed"
-
-    if True:
-        b = Board()
         b.print_me()
+        b.set_color(0, 0, "red")
+        b.print_me()
+        # assert !b.is_empty(), "A board is not empty after a peg is placed"
