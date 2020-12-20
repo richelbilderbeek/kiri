@@ -16,10 +16,9 @@ class Board:
 def test_board():
     # Testing the board
 
-    if False:
-        # Issue 1
+    if True:
         b = Board()
-        assert b.n_cols == 3, "A board has four columns"
+        assert b.n_cols == 4, "A board has four columns"
 
     if False:
         # Issue 2
