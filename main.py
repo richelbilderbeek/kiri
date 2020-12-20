@@ -45,8 +45,11 @@ def main():
         img = font.render("MASTERMIND", True, (0, 0, 0))
         screen.blit(img, (120, 120))
 
-        # Draw a red peg on a random location
-        pygame.draw.ellipse(screen, (255, 0, 0), (220, 220, 40, 40))
+        # Draw a red round peg on a random location
+        pygame.draw.circle(screen, (255, 0, 0), (220, 220), 40)
+
+        # Draw a green ellipse on a random location
+        pygame.draw.ellipse(screen, (0, 255, 0), (220, 220, 40, 40))
 
         pygame.display.update()
 
