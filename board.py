@@ -18,7 +18,6 @@ class Board:
     # self[1][2] = "orange"
     # will set the second column of the first row to orange
 
-
     def print_me(self):
         # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
