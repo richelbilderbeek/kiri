@@ -47,3 +47,9 @@ def test_board():
         b.set_color(0, 0, "red")
         b.print_me()
         # assert !b.is_empty(), "A board is not empty after a peg is placed"
+
+    if False:
+        # Issue 12
+        b = Board()
+        b.set_color(1, 2, "green")
+        # assert b.get_color(1, 2) == "green", "set and get must be symmetric"
