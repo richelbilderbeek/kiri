@@ -37,11 +37,11 @@ def main():
             if event.type == pygame.QUIT:
                 # change the value to False, to exit the main loop
                 running = False
+
+        # Draw orange background rectangle
+        pygame.draw.rect(screen, (255, 128, 0), (120, 120, 320, 40))
         # Draw text, from
         # https://pygame.readthedocs.io/en/latest/4_text/text.html#work-with-text
-
-        pygame.draw.rect(screen, (255, 128, 0), (120, 120, 320, 40))
-
         img = font.render("MASTERMIND", True, (0, 0, 0))
         screen.blit(img, (120, 120))
 
