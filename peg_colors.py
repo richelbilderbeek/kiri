@@ -1,5 +1,5 @@
-def get_n_player_peg_colors():   
-    6
+def get_n_player_peg_colors():
+    return 6
 
 
 def get_player_peg_colors():
