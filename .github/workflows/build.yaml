@@ -1,14 +1,13 @@
 name: check build
 
 jobs:
-build:
-runs-on: ubuntu-latest
-
- steps:
-   - name: checkout repo content
-     uses: actions/checkout@v2
-   - name: setup python
-     uses: actions/setup-python@v2
-   - name: run script
-     run: python main.py
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+    - name: run script
+      run: python main.py
 
