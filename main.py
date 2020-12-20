@@ -1,4 +1,5 @@
 # import the pygame module, so you can use it
+import sys
 import pygame
  
 # define a main function
@@ -27,5 +28,8 @@ def main():
 # run the main function only if this module is executed as the main script
 # (if you import this as a module then nothing is executed)
 if __name__=="__main__":
+    if (len(sys.argv) == 2 and sys.argv[1] == "--test"):
+      print("TEST")
+      exit(1)
     # call the main function
     main()
