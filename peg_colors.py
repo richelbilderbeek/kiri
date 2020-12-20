@@ -1,4 +1,4 @@
-def get_n_player_peg_colors(): 
+def get_n_player_peg_colors():
     return 6
 
 
