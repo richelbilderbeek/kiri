@@ -2,10 +2,12 @@
 import sys
 import pygame
 from board import *
+from peg_colors import *
 
 
 # define the main main testing function
 def test():
+    test_peg_colors()
     test_board()
 
 
