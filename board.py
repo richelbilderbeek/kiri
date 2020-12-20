@@ -18,10 +18,6 @@ class Board:
     # self[1][2] = "orange"
     # will set the second column of the first row to orange
 
-    c = Rectangle(Point(1, -10), Point(10, -5))
-    c.setFill("lightbrown")
-    c.setOutline("darkbrown")
-    c.draw(win)
 
 def print_me(self):
         # Show the board as text one day
