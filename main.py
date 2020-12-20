@@ -1,7 +1,7 @@
 import sys
 import os
 # Prevent PyGame showing a welcome message
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide" # noqa due to PyGame
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"  # noqa due to PyGame
 import pygame
 from board import *
 from peg_colors import *
