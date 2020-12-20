@@ -6,7 +6,12 @@ class Board:
 
     n_rows = 12
 
-    def print_me(self):
+    c = Rectangle(Point(1, -10), Point(10, -5))
+    c.setFill("lightbrown")
+    c.setOutline("darkbrown")
+    c.draw(win)
+
+def print_me(self):
         # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
 
