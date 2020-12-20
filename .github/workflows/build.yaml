@@ -28,7 +28,7 @@ jobs:
       run: python main.py --test
 
     - name: run codecov script?
-      run: pytest main.py
+      run: pytest *.py
 
     - name: Python Style Checker
       uses: andymckay/pycodestyle-action@0.1.3
