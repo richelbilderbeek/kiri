@@ -15,6 +15,9 @@ jobs:
     - name: setup python
       uses: actions/setup-python@v2
 
+    - name: install pytest-cov
+      run: python3 -m pip install -U pytest-cov --user
+
     - name: install PyGame
       run: python3 -m pip install -U pygame --user
 
@@ -23,6 +26,9 @@ jobs:
 
     - name: run script
       run: python main.py --test
+
+    - name: run codecov script?
+      run: pytest main.py
 
     - name: Python Style Checker
       uses: andymckay/pycodestyle-action@0.1.3
