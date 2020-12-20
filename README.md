@@ -9,6 +9,8 @@ Branch   |[GitHub Actions](https://github.com/richelbilderbeek/kiri/actions)    
 
 This will be our Python version of the ancient game of Mastermind.
 
+![](20201220.png)
+
 ## Libraries
 
  * [PyGame](https://www.pygame.org/wiki/GettingStarted)
