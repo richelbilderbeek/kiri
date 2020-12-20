@@ -1,5 +1,7 @@
-# import the pygame module, so you can use it
 import sys
+import os
+# Prevent PyGame showing a welcome message
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
 from board import *
 from peg_colors import *
