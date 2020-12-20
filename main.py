@@ -3,9 +3,11 @@ import sys
 import pygame
 from board import *
 
+
 # define the main main testing function
 def test():
     test_board()
+
 
 # define a main function
 def main():
