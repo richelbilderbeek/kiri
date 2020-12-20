@@ -27,6 +27,9 @@ def main():
     # define a variable to control the main loop
     running = True
 
+    # create a font
+    font = pygame.font.SysFont(None, 64)
+
     # main loop
     while running:
         # event handling, gets all event from the event queue
@@ -35,7 +38,11 @@ def main():
             if event.type == pygame.QUIT:
                 # change the value to False, to exit the main loop
                 running = False
-
+        # Draw text, from 
+        # https://pygame.readthedocs.io/en/latest/4_text/text.html#work-with-text
+        img = font.render("MASTERMIND", True, (255, 128, 0))
+        screen.blit(img, (120, 120))
+        pygame.display.update()
 
 # run the main function only if this module is executed as the main script
 # (if you import this as a module then nothing is executed)
