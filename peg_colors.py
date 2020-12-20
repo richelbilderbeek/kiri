@@ -30,4 +30,3 @@ def test_peg_colors():
         assert "cyan" in get_player_peg_colors(), "Cyan is a peg color"
         assert "blue" in get_player_peg_colors(), "Blue is a peg color"
         assert "magenta" in get_player_peg_colors(), "Magenta is a peg color"
-
