@@ -4,6 +4,8 @@ Branch   |[GitHub Actions](https://github.com/richelbilderbeek/kiri/actions)    
 ---------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |![R-CMD-check](https://github.com/richelbilderbeek/kiri/workflows/Check/badge.svg?branch=master) |[![codecov.io](https://codecov.io/github/richelbilderbeek/kiri/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/kiri/branch/master)
 `develop`|![R-CMD-check](https://github.com/richelbilderbeek/kiri/workflows/Check/badge.svg?branch=develop)|[![codecov.io](https://codecov.io/github/richelbilderbeek/kiri/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/kiri/branch/develop)
+`kirsten`|![R-CMD-check](https://github.com/richelbilderbeek/kiri/workflows/Check/badge.svg?branch=kirsten)|[![codecov.io](https://codecov.io/github/richelbilderbeek/kiri/coverage.svg?branch=kirsten)](https://codecov.io/github/richelbilderbeek/kiri/branch/kirsten)
+`richel` |![R-CMD-check](https://github.com/richelbilderbeek/kiri/workflows/Check/badge.svg?branch=richel) |[![codecov.io](https://codecov.io/github/richelbilderbeek/kiri/coverage.svg?branch=richel)](https://codecov.io/github/richelbilderbeek/kiri/branch/richel)
 
 This will be our Python version of the ancient game of Mastermind.
 
