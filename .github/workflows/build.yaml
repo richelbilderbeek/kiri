@@ -18,6 +18,9 @@ jobs:
     - name: install PyGame
       run: python3 -m pip install -U pygame --user
 
+    - name: install alsa-base
+      run: sudo apt install alsa-base
+
     - name: run script
       run: python main.py
 
