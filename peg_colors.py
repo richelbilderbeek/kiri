@@ -17,8 +17,7 @@ def test_peg_colors():
         n_actual = len(get_player_peg_colors())
         assert n_expected == n_actual, "There must be 6 peg colors"
 
-    if False:
-        # Issue 6
+    if True:
         assert "red" in get_player_peg_colors(), "Red is a peg color"
         assert "yellow" in get_player_peg_colors(), "Yellow is a peg color"
         assert "green" in get_player_peg_colors(), "Green is a peg color"
