@@ -7,6 +7,7 @@ from peg_colors import *
 # Prevent PyGame showing a welcome message
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
+
 # define the main main testing function
 def test():
     test_peg_colors()
