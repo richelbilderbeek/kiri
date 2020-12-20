@@ -3,7 +3,9 @@ class Board:
 
     def __init__(self):
         # Constructor
-        self.peg_colors = [["" for i in range(self.n_rows)] for j in range(self.n_cols)]
+        self.peg_colors = [
+            ["" for i in range(self.n_rows)] for j in range(self.n_cols)
+        ]
 
     n_cols = 4
     # Number of columns where a player can place a peg
@@ -13,7 +15,7 @@ class Board:
 
     peg_colors = None
     # A 2D array, y-x-ordered aka ordered-by-row, for example
-    # self[1][2] = "orange" 
+    # self[1][2] = "orange"
     # will set the second column of the first row to orange
 
     def print_me(self):
