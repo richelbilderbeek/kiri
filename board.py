@@ -21,8 +21,8 @@ class Board:
 
     def print_me(self):
         # Show the board as text one day
-    print("Me: ", self.n_cols, self.n_rows)
-    print(self.peg_colors)
+        print("Me: ", self.n_cols, self.n_rows)
+        print(self.peg_colors)
 
 
 def test_board():
