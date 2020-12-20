@@ -1,14 +1,25 @@
 class Board:
     # A Mastermind board
 
+    def __init__(self):
+        # Constructor
+        self.peg_colors = [["" for i in range(self.n_rows)] for j in range(self.n_cols)]
+
     n_cols = 4
     # Number of columns where a player can place a peg
 
     n_rows = 12
+    # Number of rows where a player can place a peg
+
+    peg_colors = None
+    # A 2D array, y-x-ordered aka ordered-by-row, for example
+    # self[1][2] = "orange" 
+    # will set the second column of the first row to orange
 
     def print_me(self):
         # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
+        print(self.peg_colors)
 
 
 def test_board():
@@ -32,3 +43,7 @@ def test_board():
         b = Board()
         b.set_color(0, 0, "red")
         # assert !b.is_empty(), "A board is not empty after a peg is placed"
+
+    if True:
+        b = Board()
+        b.print_me()
