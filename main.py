@@ -39,8 +39,12 @@ def main():
                 running = False
         # Draw text, from
         # https://pygame.readthedocs.io/en/latest/4_text/text.html#work-with-text
-        img = font.render("MASTERMIND", True, (255, 128, 0))
+
+        pygame.draw.rect(screen, (255, 128, 0), (120, 120, 320, 40))
+
+        img = font.render("MASTERMIND", True, (0, 0, 0))
         screen.blit(img, (120, 120))
+
         pygame.display.update()
 
 
