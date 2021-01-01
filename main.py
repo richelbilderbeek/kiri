@@ -27,7 +27,7 @@ def main():
     # create a surface on screen that has the size of 240 x 180
     screen = pygame.display.set_mode((960, 720))
 
-    # draws a rectangle to becoe the playing field
+    # draws a rectangle to become the playing field
     DISPLAY=pygame.display.set_mode((500,400),0,32)
 
     PERU=(205,133,63)
