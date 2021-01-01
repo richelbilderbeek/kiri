@@ -4,7 +4,7 @@ class Board:
     def __init__(self):
         # Constructor
         self.peg_colors = [
-            ["" for i in range(self.n_rows)] for j in range(self.n_cols)
+            [""for i in range(self.n_rows)] for i in range(self.n_cols)
         ]
 
     n_cols = 4
@@ -17,6 +17,13 @@ class Board:
     # A 2D array, y-x-ordered aka ordered-by-row, for example
     # self[1][2] = "orange"
     # will set the second column of the first row to orange
+
+    pygame.draw.rect()
+        rect(surface, color, rect)
+        rect(surface, color, rect, width=0, border_radius=0, 
+        border_top_left_radius=-1, border_top_right_radius=-1, 
+        border_bottom_left_radius=-1, border_bottom_right_radius=-1)
+        if width == 0,
 
     def print_me(self):
         # Show the board as text one day
