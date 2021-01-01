@@ -9,7 +9,6 @@ from pygame.locals import *
 from game import *
 
 
-
 # define the main main testing function
 def test():
     test_peg_colors()
