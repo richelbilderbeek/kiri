@@ -29,7 +29,7 @@ def test_game():
     if False:
         # Issue 16
         g = Game()
-        assert get_n_guesses_done(g) == 0, "In a new game zero guesses/moves/turns are done"
+        assert get_n_guesses_done(g) == 0, "Zero guesses are done in a new game"
 
     if False:
         # Issue 17
@@ -37,4 +37,3 @@ def test_game():
         move = "red", "red", "red", "red"
         g.guess(move)
         assert get_n_guesses_done(g) == 1, "After a guess, one guess is done"
-
