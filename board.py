@@ -35,8 +35,7 @@ def test_board():
         b = Board()
         assert b.n_rows == 12, "A board has 12 rows"
 
-    if False:
-        # Issue 10
+    if True:
         b = Board()
         assert b.is_empty(), "A new board is empty"
 
