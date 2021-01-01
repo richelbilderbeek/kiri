@@ -29,7 +29,7 @@ def test_game():
     if False:
         # Issue 16
         g = Game()
-        assert get_n_guesses_done(g) == 0, "Zero guesses are done in a new game"
+        assert get_n_guesses_done(g) == 0, "A new game has zero guesses done"
 
     if False:
         # Issue 17
