@@ -18,13 +18,6 @@ class Board:
     # self[1][2] = "orange"
     # will set the second column of the first row to orange
 
-    pygame.draw.rect()
-        rect(surface, color, rect)
-        rect(surface, color, rect, width=0, border_radius=0, 
-        border_top_left_radius=-1, border_top_right_radius=-1, 
-        border_bottom_left_radius=-1, border_bottom_right_radius=-1)
-        if width == 0,
-
     def print_me(self):
         # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
