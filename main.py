@@ -27,7 +27,7 @@ def main():
     screen = pygame.display.set_mode(960, 720)
 
     # draws a rectangle to become the playing field
-    DISPLAY=pygame.display.set_mode((500, 400), 0, 32)
+    DISPLAY = pygame.display.set_mode((500, 400), 0, 32)
 
     PERU = (205, 133, 63)
     SIENNA = (160, 82, 45)
