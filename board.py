@@ -20,7 +20,8 @@ class Board:
 
     is_the_board_empty = True
     # This variable is a stub
-    # and will be replaced by checking if 'peg_colors' (a 2D list) has a non-empty value
+    # and will be replaced by checking if 'peg_colors' 
+    # (a 2D list) has a non-empty value
 
     def set_color(self, x, y, peg_color):
         # This is a stub, as it ignores x, y an the peg color
