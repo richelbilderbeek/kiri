@@ -20,7 +20,7 @@ class Game:
    # Testing the game
     if True:
         g = Game()
-    assert g.board.n_cols == 4, "A game has a board"
+        assert g.board.n_cols == 4, "A game has a board"
 
     if False:
         g = Game()
