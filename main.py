@@ -16,10 +16,9 @@ def test():
     test_game()
 
 
-
 # define a main function
 def main():
-   
+
     # initialize the pygame module
     pygame.init()
     pygame.display.set_caption("kiri")
