@@ -11,13 +11,11 @@ class Game:
 def test_game():
     # Testing the game
 
-    if False:
-        # Issue 13
+    if True:
         g = Game()
         assert g.board.n_cols > 0, "A game has a board"
 
-    if False:
-        # Issue 14
+    if True:
         g = Game()
         assert len(g.code) > 0, "A game has a code"
 
