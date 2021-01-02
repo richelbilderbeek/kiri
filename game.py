@@ -1,7 +1,7 @@
 from board import *
+
 class Game:
-    # A game of Mastermind, that is
-    
+   # A game of Mastermind, that is
     def __init__(self):
         self.board = Board()
 
@@ -17,9 +17,9 @@ class Game:
 
 
 def test_game():
-    # Testing the game
+   # Testing the game
     if True:
-        g = Game()
+       g = Game()
         assert g.board.n_cols == 4, "A game has a board"
 
     if False:
