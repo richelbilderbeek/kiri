@@ -18,6 +18,18 @@ class Board:
     # self[1][2] = "orange"
     # will set the second column of the first row to orange
 
+    is_the_board_empty = True
+    # This variable is a stub
+    # and will be replaced by checking if 'peg_colors' (a 2D list) has a non-empty value
+
+    def set_color(self, x, y, peg_color):
+        # This is a stub, as it ignores x, y an the peg color
+        self.is_the_board_empty = False
+
+    def is_empty(self):
+        # checking the board for pegs/moves
+        return self.is_the_board_empty
+
     def print_me(self):
         # Show the board as text one day
         print("Me: ", self.n_cols, self.n_rows)
@@ -40,7 +52,6 @@ def test_board():
         assert b.is_empty(), "A new board is empty"
 
     if True:
-        # Issue 11
         b = Board()
         b.set_color(0, 0, "red")
         assert not b.is_empty(), "A board is not empty after a peg is placed"
